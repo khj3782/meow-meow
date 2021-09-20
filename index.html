@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicat.ico" type="image/x-icon" />
+  <meta property="og:title" content="meow meow">
+  <meta property="og:description" content="i can feel you in my meow meow">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="img/title.png">
+  <meta property="og:url" content="https://khj3782.github.io/meow-meow/">
+  <meta charset="utf-8">
+  <meta name="author" content="고영희">
+  <meta name="description" content="i can feel you in my meow meow">
+  <title>meow meow</title>
+</head>
+
+<body onload="moveElement()">
+  <div class="logo-container">
+    <div class="logo-img-back">
+      <img src="img/logo-cat.png" class="logo-img" />
+    </div>
+    <div class="logo-text">
+      <svg width="220px" height="130px">
+        <path id="curve" d="m 0 20 Q 110 80 220 20" fill="transparent"></path>
+        <path id="curve-2" d="m 10 85 Q 110 130 210 85" fill="transparent"></path>
+        <text>
+          <textPath href="#curve">
+            i can feel you in my
+          </textPath>
+          <textPath href="#curve-2" class="meow">
+            meow meow
+          </textPath>
+        </text>
+      </svg>
+    </div>
+  </div>
+  <div class="moving-cat" id="meow1">
+    <div class="meow1-back"></div>
+    <img src="img/meow1.png" class="cat">
+  </div>
+  <script type="text/javascript" src="script/script.js"></script>
+</body>
+
+</html>
