@@ -4,8 +4,12 @@ moveElement('meow2');
 function moveElement(id){
   var x, y, mouseX, mouseY;
   var cat = document.getElementById(id);
-  cat.style.top = "100px";
-  cat.style.left = "70px";
+
+  var top, left;
+  top = Math.floor(Math.random() * (window.innerHeight - 230));
+  left = Math.floor(Math.random() * (window.innerWidth - 230));
+  cat.style.top = top + 'px';
+  cat.style.left = left + 'px';
 
   cat.onpointerdown = dragMouseDown;
 
