@@ -45,3 +45,13 @@ body{
   width:210px;
   z-index:-1;
 }
+.meow2-back{
+  background-color:white;
+  -webkit-clip-path: polygon(0 20%, 80% 0%, 100% 100%, 20% 80%);
+  height:150px;
+  left:-20px;
+  position:absolute;
+  top:-40px;
+  width:210px;
+  z-index:-1;
+}

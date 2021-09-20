@@ -1,4 +1,5 @@
 moveElement('meow1');
+moveElement('meow2');
 
 function moveElement(id){
   var x, y, mouseX, mouseY;
