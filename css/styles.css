@@ -55,3 +55,13 @@ body{
   width:210px;
   z-index:-1;
 }
+.meow3-back{
+  background-color:white;
+  -webkit-clip-path: polygon(53% 34%, 100% 25%, 86% 83%, 18% 100%, 0 0);
+  height:150px;
+  left:-20px;
+  position:absolute;
+  top:-40px;
+  width:210px;
+  z-index:-1;
+}
