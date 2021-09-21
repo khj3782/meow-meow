@@ -7,8 +7,8 @@ function moveElement(id){
   var cat = document.getElementById(id);
 
   var top, left;
-  top = Math.floor(Math.random() * (window.innerHeight - 230));
-  left = Math.floor(Math.random() * (window.innerWidth - 230));
+  top = Math.floor(Math.random() * (window.innerHeight - 210));
+  left = Math.floor(Math.random() * (window.innerWidth - 210));
   cat.style.top = top + 'px';
   cat.style.left = left + 'px';
 
